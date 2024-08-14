@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>forms in html</title>
+    </head>
+<body>
+    <pre>
+    <fieldset>
+        <legend>Register here</legend>
+            <form action="./reg.html">
+                <p> going to joining 10k coders &#128682; and wanna learn subject and gonna become developer &#128187;</p>
+                 <div style="background-color: aqua;">
+                 <label for="Entername">Entername:---</label>
+                <input type="text" placeholder="Entername"id="Entername" pattern=[a-mA-T0-8]{5,8} required/>
+                </div>
+                <div style="background-color: beige;">
+                <label for="password">Enterpassword:---</label>
+                <input type="text" placeholder="Enterpassword" id="Enterpassword" pattern= [A-Da-L!@#$%0-6]{4,6} required/>
+                </div>
+                <div style="background-color: blueviolet;">
+                <label for="email">EnterEmail:---</label>
+                <input type="Text" placeholder="email" id="Enteremail" required pattern="[a-hA-K0-8]+@[a-sA-G]+\.[a-z]{,}" required/>
+                </div>
+                <div style="background-color: aquamarine;">
+                <label for="Appitite"> choose your food</label>
+                <select name="food"  id="apettitestyle= width="200 height=200" required/>
+                <option value=""select dish>selectdish</option>
+                <option value=""fish>fish</option>
+                <option value="" disabled="">birayani</option>
+                <option value=""chiken>chiken</option>
+                <option value=""mutton>mutton</option>
+                </select>
+                </div>
+                <div style="background-color: aqua;">
+                 <input type="text" list="timings"/>
+                <datalist id="timings">
+                <option value="10:30">12:30</option>
+            <option value="12:30">1:30"></option>  
+        <option value="2:30">4:30"</option>
+        <option value="4:30">6:00"></option>
+            </datalist>
+        </div>
+        <div style="background-color: blue;">
+                <input type="file"/>
+                male:---<input type="radio" value="male"/>
+                female:---<input type="radio" value="female"/>
+                others:---<input type="radio"value="others"/></div>
+
+                <input type="checkbox">I agree to <a href="">Terms</a>and><a href="">conditions></a>
+
+                <textarea rows="10" cols="20">sanjeevaraju 3-561 sc colony a.kodur readonly </textarea>
+                
+                <button type="submit">submit</button>
+             </pre>
+                
+                <form>
+
+                </fieldset>
+</body>
+</html>
