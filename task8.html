@@ -6,7 +6,7 @@
     <pre>
     <fieldset>
         <legend>Register here</legend>
-            <form action="./reg.html">
+            <form action="./reg.html" method="get">
                 <p> going to joining 10k coders &#128682; and wanna learn subject and gonna become developer &#128187;</p>
                  <div style="background-color: aqua;">
                  <label for="Entername">Entername:---</label>
@@ -18,11 +18,11 @@
                 </div>
                 <div style="background-color: blueviolet;">
                 <label for="email">EnterEmail:---</label>
-                <input type="Text" placeholder="email" id="Enteremail" required pattern="[a-hA-K0-8]+@[a-sA-G]+\.[a-z]{,}" required/>
+                <input type="Text" placeholder="email" id="Enteremail" required pattern= [a-hA-K0-8]+@[a-sA-G]+\.[a-z]{,} required/>
                 </div>
                 <div style="background-color: aquamarine;">
                 <label for="Appitite"> choose your food</label>
-                <select name="food"  id="apettitestyle= width="200 height=200" required/>
+                <select name="food"  id="apettite" width="200" height="200"/>
                 <option value=""select dish>selectdish</option>
                 <option value=""fish>fish</option>
                 <option value="" disabled="">birayani</option>
@@ -31,12 +31,14 @@
                 </select>
                 </div>
                 <div style="background-color: aqua;">
+                  <label for="timings">Enter timings</label>
                  <input type="text" list="timings"/>
                 <datalist id="timings">
                 <option value="10:30">12:30</option>
-            <option value="12:30">1:30"></option>  
-        <option value="2:30">4:30"</option>
-        <option value="4:30">6:00"></option>
+            <option value="12:30">1:30</option>  
+        <option value="2:30">4:30</option>
+        <option value="4:30">6:00</option>
+        </select>
             </datalist>
         </div>
         <div style="background-color: blue;">
